@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>First jQuery</title>
+    <!-- including jQuery from Google's CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+          
+            $("button").click(function () {
+                $(".toggleable").toggle(); // hides/ shows selected elements
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <div class="main">
+        <nav>
+            <ul>
+                <li><a href="./countries.html">Countries Page</a></li>
+                <li><a href="./responsive.html">Responsive Image Page</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+
+
+    <h2> Welcome to Zaid's Training Site! </h2>
+
+    <h3> Visitor Information Form</h3>
+    <button> hide/show </button>
+    <div class="toggleable"> Clicking on the button would hide me, but clicking it again would bring me back :D .</div>
+
+    <footer>
+        <p><a href="#">Home</a> <em>Copyright &copy; 2022, BZU - FIS</em>
+        </p>
+    </footer>
+</body>
+
+</html>
