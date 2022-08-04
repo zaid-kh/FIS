@@ -80,7 +80,15 @@
     <div class="row">
         <div class="col-sm-3"> <br> pressing <kbd>ctrl + shift + esc</kbd> simultaniously would prompt the Task
             Manager </div>
+
         <div class="col-sm-3">
+            <p class="text-right"> سَئِمتُ تَكاليفَ الحَياةِ وَمَن يَعِش </p>
+            <p> ثَمانينَ حَولاً لا أَبا لَكَ يَسأَمِ </p><br>
+            <p class="text-right">رَأَيتُ المَنايا خَبطَ عَشواءَ </p>
+            <p>مَن تُصِب تُمِتهُ وَمَن تُخطِئ يُعَمَّر فَيَهرَمِ</p>
+            </p>
+        </div>
+        <div class="col-sm-auto">
             <pre class="pre-scrollable">
                     <code>
             // using pre element that is scrollable
@@ -96,15 +104,16 @@
                      }
                 }
             }
+            algorithm quicksort(A, lo, hi) : 
+            Begin
+                if lo < hi then
+                    p := pivot(A, lo, hi)
+                    left, right := partition(A, p, lo, hi)  // note: multiple return values
+                    quicksort(A, lo, left - 1)
+                    quicksort(A, right + 1, hi)
+            Ends
                     </code>
         </pre>
-        </div>
-        <div class="col-sm-3">
-            <p class="text-right"> سَئِمتُ تَكاليفَ الحَياةِ وَمَن يَعِش </p>
-            <p> ثَمانينَ حَولاً لا أَبا لَكَ يَسأَمِ </p><br>
-            <p class="text-right">رَأَيتُ المَنايا خَبطَ عَشواءَ </p>
-            <p>مَن تُصِب تُمِتهُ وَمَن تُخطِئ يُعَمَّر فَيَهرَمِ</p>
-            </p>
         </div>
     </div>
 
